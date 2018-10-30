@@ -10,15 +10,7 @@ You will find a specific and comprehensive README in every folder.
 
 ## Before you get started
 
-**Read the schema documentation hosted on graph.cool**:
-
-You can inspect the GraphQL schema that is hosted on graph.cool by running:
-```bash
-cd schema
-npm i && npm start
-or 
-yarn && yarn start
-```
+**Read the schema documentation hosted [here](https://api.graph.cool/simple/v1/cj1ufizxi5lgy0109064uyi7i)**:
 
 ### Step 1. Basic queries: Get all conferences and Conference details
 
