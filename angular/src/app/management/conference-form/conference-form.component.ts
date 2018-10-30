@@ -100,7 +100,6 @@ export class ConferenceFormComponent implements OnInit, OnDestroy {
           Validators.minLength(10),
           Validators.maxLength(10),
           Validators.pattern(/^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$/),
-          ConferenceFormValidators.isBeforeEndDate
         ]
       ],
       endDate: [
@@ -110,7 +109,6 @@ export class ConferenceFormComponent implements OnInit, OnDestroy {
           Validators.minLength(10),
           Validators.maxLength(10),
           Validators.pattern(/^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$/),
-          ConferenceFormValidators.isAfterStartDate
         ]
       ],
       logo: [
